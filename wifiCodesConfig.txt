@@ -1,9 +1,0 @@
-iwctl to open up wifi menu and configuration
-adapter list -- to see if powered on
-sudo rfkill enable all -- if it isn't powered on
-ip l to check if it's up, if it isn't aip link set //interface name// up
-station //name// scan
-station //name// get-networks
-station //name// connect ssid
-after you're connected you may have to run
-dhcpcd //name//
